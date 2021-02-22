@@ -1,0 +1,13 @@
+.home-container {
+    padding: 16px;
+    height: 100vh;
+    .dashboard-cards {
+        margin-top: 16px;
+        display: flex;
+    }
+}
+
+@import '../../components/header/Header.scss';
+@import '../../components/userData/UserData.scss';
+@import '../../components/bannerAndProgress/BannerAndProgress.scss';
+@import '../../components/calendarAndHrdata/CalendarAndHrdata.scss';
