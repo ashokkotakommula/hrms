@@ -10,3 +10,16 @@
         object-fit: cover;
     }
 }
+@media screen and (max-width: 600px) {
+    .avatar-container {
+        font-size: 10px;
+        h5 {
+            margin-left: 4px;
+        }
+        .avatar {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+    }
+}

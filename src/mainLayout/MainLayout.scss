@@ -5,6 +5,7 @@
     box-sizing: border-box;
     .nav-container {
         flex-basis: 20%;
+        overflow-y: hidden;
         .heading {
             display: flex;
             padding: 16px;
@@ -32,6 +33,37 @@
         border-radius: 15px;
         background: #FFFFFF;
         box-shadow: inset 0px 0px 4px 6px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .layout-container {
+        font-size: 14px;
+        .nav-img {
+            height: 150px;
+            width: 150px;
+            margin-top: 0px;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .layout-container {
+        font-size: 12px;
+        .nav-container {
+            .heading {
+                font-size: 12px;
+                padding: 14px;
+                h2 {
+                    font-size: 16px;
+                    
+                }
+            }
+        }
+        .nav-img {
+            width: 100px;
+            height: 100px;
+            margin-top: 60px;
+        }
     }
 }
 
